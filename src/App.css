@@ -1,33 +1,161 @@
-.App {
-  text-align: center;
+/* Navigation editing */
+.header-color{
+ background: url("./Images/4k-wallpaper-calm-waters-dark-1252869.jpg");
+ background-size: 100%;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* Landing page Editing */
+.landingGrid{
+    background: url("./Images/4k-wallpaper-calm-waters-dark-1252869.jpg");
+    background-size: 100%;
+    position:fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.error{
+    margin-top: 50px;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.iconLink{
+ width: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Avatar{
+    height: 300px;
+    padding-top: 5em;
 }
+
+.banner-text{
+    width:  75%;
+    margin: auto;
+}
+
+.banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto
+}
+
+.banner-text p{
+    color: white;
+    font-size: 15px;
+    padding: 1em;
+    opacity: .6;
+}
+
+
+.socialLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.socialLinks i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+/* Contact Editing */
+.contactBody{
+    margin: auto;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+}
+
+.contactGrid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+.contactList i {
+    font-size: 66px;
+    padding-right: 5rem;
+}
+.contactGrid h2{
+    font-family: "Anton" , sans-serif;
+}
+.contactGrid p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;  
+}
+
+.contactGrid hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+
+}
+.react{
+    background: url("./Images/logo-og.png") center/cover;
+}
+
+.Python{
+    background: url("./Images/python.svg") center/cover;
+    background-size: 200px auto;
+}
+.projectDiv{
+    margin: 25px;
+}
+.Jquery{
+    background: url("./Images/Jquerylogo1.png")center/cover;
+}
+
+.WebDev{
+    background: url("./Images/204-2047002_learn-html-css-by-exploring-these-25-tutorials.png")center/cover;
+}
+.Javascript{
+    background: url("./Images/javascript-logo.jpg")center/cover;
+}
+.project{
+    display: flex;
+}
+
+/* Cv page */
+
+.CvRight{
+    color: white;
+    background: #27221f;
+    padding: 2em;
+}
+
+.ProjectName{
+    background:black;
+    opacity:0.7;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 150px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+
+.mdl-layout__content{height: 100%;
+    margin: 0;
+}
+
+.mdl-tabs__tab-bar{
+    background: white;
+};
