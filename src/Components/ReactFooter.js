@@ -5,7 +5,8 @@ class ReactFooter extends Component {
   render() {
     return (
       <Footer size="mini">
-        <FooterSection type="middle" logo="©Rhema Makamba 2019">
+      
+        <FooterSection type="middle" logo="©Rhema Makamba 2020">
           <FooterLinkList>
             <a herf="#">Help</a>
             <a herf="#">Privacy Terms</a>
