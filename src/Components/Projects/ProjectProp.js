@@ -28,7 +28,7 @@ class myCard extends Component {
         <CardActions border>
           <Button colored>
             <a href={this.props.Live} rel="noopener noreferrer" target="_blank">
-              Github
+              Live Demo
             </a>
           </Button>
           <Button colored>
@@ -37,7 +37,7 @@ class myCard extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              Live Demo
+              Github
             </a>
           </Button>
         </CardActions>
