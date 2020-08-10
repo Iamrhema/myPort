@@ -26,7 +26,7 @@ class Project extends Component {
             background="Game"
             Description="Snake Game with no other Libraries."
             Live="https://rhema-snakegame.herokuapp.com/"
-            Github=" https://github.com/Iamrhema/React-Snake-Game"
+            Github="https://github.com/Iamrhema/React-Snake-Game"
           />
           {/* weather app */}
           <Media
@@ -47,7 +47,7 @@ class Project extends Component {
             background="StaticWeb"
             Description="Static E-commerece Site"
             Live="https://iamrhema.github.io/Static-Ecommerce-/"
-            Github="https://github.com/Iamrhema/Static-Ecommerce"
+            Github="https://github.com/Iamrhema/Static-Ecommerce-"
           />
           {/* E-commerece store */}
           <Media
@@ -147,7 +147,7 @@ class Project extends Component {
             background="StaticWeb"
             Description="Static E-commerece Site"
             Live="https://iamrhema.github.io/Static-Ecommerce-/"
-            Github="https://github.com/Iamrhema/Static-Ecommerce"
+            Github="https://github.com/Iamrhema/Static-Ecommerce-"
           />
         </div>
       );
