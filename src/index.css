@@ -1,13 +1,361 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+ .icon {
+  width: 40px;
+  margin-top: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.iconImage {
+  width: 150px;
+}
+
+.mr-auto h1 {
+  margin-right: 50px;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
+}
+
+.spinner {
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+.spinner:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+
+.arrow a {
+  color: white;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+#Iam {
+  font: normal 300 35px/1 "Josefin Sans", sans-serif;
+  color: white;
+}
+
+#spin {
+  color: white;
+  font: normal 300 35px/1 "Josefin Sans", sans-serif;
+  text-decoration: underline;
+}
+
+#spin:after {
+  content: "Rhema";
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "a Geek";
+  }
+
+  10% {
+    content: "a Hacker";
+  }
+
+  20% {
+    content: "a Developer";
+  }
+
+  30% {
+    content: "a Designer";
+  }
+
+  40% {
+    content: "a Dancer";
+  }
+
+  50% {
+    content: "a Coder";
+  }
+
+  60% {
+    content: "a Stack Overflow";
+  }
+
+  70% {
+    content: "a Bookworm";
+  }
+
+  80% {
+    content: "an Artist";
+  }
+
+  90% {
+    content: "a Programmer";
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato&subset=latin-ext);
+
+.navHeaders {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  margin: 0 auto;
+
+}
+.hover-cut {
+  color: white;
+}
+
+.navHeaders {
+  font-size: 50px;
+  /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+  color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#999, #999) center 1.09em no-repeat;
+  background: linear-gradient(#999, #999) center 1.09em no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 85% 3px;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.navHeaders:hover {
+  /*  backgrounds won't size larger than 100%  */
+  background-size: 97% 3px;
+
+}
+.myName {
+  color: #111;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+
+.banner-text {
+  width: 75%;
+  margin: auto;
+}
+
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  opacity:.8;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.socialLinks i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+  opacity: .6;
+}
+
+
+.portfolio {
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  margin: 1rem;
+  width: 35vh;
+
+}
+.portfolio:hover{
+  transform: scale(1.2);
+}
+
+
+.arrow a { color: white; text-decoration: none; font-size: 4em;}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.ReactCalculator{
+  background: url("./Images/jsCal.png");
+  background-size: cover;
+}
+.Game{
+  background: url("./Images/game.png");
+  background-size: cover;
+}
+
+.WeatherApp{
+  background: url("./Images/weather.png");
+  background-size: cover;
+}
+
+.Calculator{
+  background: url("./Images/Screenshot (41).png");
+  background-size: cover;
+}
+.FirstProject{
+  background: url("./Images/first.png");
+  background-size: cover;
+}
+
+.StaticWeb{
+  background: url("./Images/sneakerHead.png");
+  background-size: cover;
+}
+.Store{
+  background: url("./Images/projectSneakerStore2.png");
+  background-size: cover;
+}
+.backend{
+  background: url("./Images/BACKEND.jpg");
+  background-size:cover;
+}
+.CvRight{
+  color: white;
+  background: #27221f;
+  padding: 2em;
+}
+
+.ProjectName{
+  background:black;
+  opacity:0.7;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 150px;
+  padding: 2px;
+  border-radius: 2px;
+}
+.skills{
+  width: 100px;
+  height: 100px;
+margin: 30px;
+-webkit-transition: .2s ease;
+transition: .2s ease;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+border-radius: 15px;
+background-color: blue;
+
+}
+
+.skills:hover{
+  transform: scale(1.2);
+}
+
+#Html{
+  background-image:url("./Images/hTML.PNG");
+  background-position: center;
+  background-size: cover;
+}
+
+#react{
+  background-image:url("./Images/logo-og.png");
+  background-position: center;
+  background-size: cover;
+}
+#python{
+  background-image:url("./Images/PYTHON.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#javascript{
+  background-image:url("./Images/javascript-logo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#jquery{
+  background-image:url("./Images/Jquerylogo1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#css{
+  background-image:url("./Images/images.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#express{
+  background-image:url("./Images/images.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Node{
+  background-image:url("./Images/node.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#java{
+  background-image:url("./Images/java.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.myCard{
+  max-width: 20rem;
+  min-width: 20rem;
+  margin: 10px;
+  display: flex;
+  align-items: center;
 }
