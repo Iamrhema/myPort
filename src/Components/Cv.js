@@ -24,7 +24,7 @@ class Resume extends Component {
             <h5>Phone</h5>
             <p>(+27) 623-276-851</p>
             <h5>Email</h5>
-            <p><a href = "mailto:rhemaexelgmail.com">rhemaexelgmail.com</a></p>
+            <p><a href = "mailto:rhemaexel7@gmail.com">rhemaexel7@gmail.com</a></p>
             <h5>Linkedin</h5>
             <p>
               <a
